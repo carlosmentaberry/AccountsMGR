@@ -3,7 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.7.34009.444
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AccountsMGR", "AccountsMGR\AccountsMGR.csproj", "{3B9A170C-0725-48F8-9C99-EB25C2F37F74}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AccountsMGR.Web", "AccountsMGR\AccountsMGR.Web.csproj", "{3B9A170C-0725-48F8-9C99-EB25C2F37F74}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Presentation", "1 - Presentation", "{00180DA4-01B6-4522-9972-15CF3462F6C9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Domain", "2 - Domain", "{9260DDA0-10F6-40F4-AB64-7BA548784391}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Infrastructure", "3 - Infrastructure", "{1987D16B-9BFE-4A9D-866E-B23AFFBF7289}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AccountsMGR.Domain", "AccountsMGR.Domain\AccountsMGR.Domain.csproj", "{487B8B15-9AAB-4BD9-9C31-FFA89E881A49}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AccountsMGR.Service", "AccountsMGR.Service\AccountsMGR.Service.csproj", "{28622372-7646-40BA-9A2D-91B17700BF74}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,9 +25,22 @@ Global
 		{3B9A170C-0725-48F8-9C99-EB25C2F37F74}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3B9A170C-0725-48F8-9C99-EB25C2F37F74}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3B9A170C-0725-48F8-9C99-EB25C2F37F74}.Release|Any CPU.Build.0 = Release|Any CPU
+		{487B8B15-9AAB-4BD9-9C31-FFA89E881A49}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{487B8B15-9AAB-4BD9-9C31-FFA89E881A49}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{487B8B15-9AAB-4BD9-9C31-FFA89E881A49}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{487B8B15-9AAB-4BD9-9C31-FFA89E881A49}.Release|Any CPU.Build.0 = Release|Any CPU
+		{28622372-7646-40BA-9A2D-91B17700BF74}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28622372-7646-40BA-9A2D-91B17700BF74}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28622372-7646-40BA-9A2D-91B17700BF74}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28622372-7646-40BA-9A2D-91B17700BF74}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3B9A170C-0725-48F8-9C99-EB25C2F37F74} = {00180DA4-01B6-4522-9972-15CF3462F6C9}
+		{487B8B15-9AAB-4BD9-9C31-FFA89E881A49} = {9260DDA0-10F6-40F4-AB64-7BA548784391}
+		{28622372-7646-40BA-9A2D-91B17700BF74} = {1987D16B-9BFE-4A9D-866E-B23AFFBF7289}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {314644CE-A8C0-426D-A06E-C439A19E40BD}
